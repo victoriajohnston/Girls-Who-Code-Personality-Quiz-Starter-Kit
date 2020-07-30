@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <footer class="container">
+  <div class="row">
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Vacation Rentals</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trip Description</a>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Book Travels</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Reservations</a>
+              </li>
+          </li>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+    <header class="col jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <strong><h1 class="display-4 text-light">Best Vacation Rentals</h1></strong>
+      <strong><p class="lead text-light">Sed placerat fringilla quam et.</p></strong>
+      <button type="button" class="btn btn-primary btn-lg">Start Now!</button>
+      </div>
+    </header>
+  </div>
+  <div class="row">
+    <div class="col-sm pb-4">
+      <a href="#">
+        <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="https://images.unsplash.com/photo-1427097829427-56a905bf7004?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=ed5baaa96c051e370f059f1d2eb3c227" alt=""></a>
+      <h3 class="text-center mb-2">Type 1</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      </p>
+      <button class="btn btn-success">Book Now @ $599</button>
+    </div>
+    <div class="col-sm pb-4">
+      <a href="#">
+        <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=ca9f0a95d0cff8019f8edd8228ef0279" alt="">
+      </a>
+      <h3 class="text-center mb-2">Type 2</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <button class="btn btn-danger">Book Now @ $899</button>
+    </div>
+    <div class="col-sm pb-4">
+      <a href="#">
+        <img class="img-fluid mx-auto d-block mt-4 mb-2 rounded-circle" src="https://images.unsplash.com/photo-1440778303588-435521a205bc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=436ad7567b8c0da884ca42fcdaee4db0" alt="">
+      </a>
+      <h3 class="text-center mb-2">Type 3</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+      <button class="btn btn-info">Book Now @ $699</button>
+    </div>
+  </div>
+  <footer class="row pt-4">
+    <div class="col-sm">
+      <small><p>&copy; 2018</p></small>
+    </div>  
+    <div class="col-sm">
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#">About Us</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Support 24x7</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#">Privacy Policy</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm">
+      <small><p class="text-right">Vacation Rentals</p></small>
+    </div>
+  </footer>
+
+<!--   <h1>Name of Your Quiz</h1>
+  
+    <h2>Your First Question</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q1a1">Question 1 Answer Choice 1</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q1a2">Question 1 Answer Choice 2</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q1a3">Question 1 Answer Choice 3</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q1a4">Question 1 Answer Choice 4</button>
+      </div>
+    </div> 
+    
+    <h2>Your Second Question</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q2a1">Question 2 Answer Choice 1</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q2a2">Question 2 Answer Choice 2</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q2a3">Question 2 Answer Choice 3</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q2a4">Question 2 Answer Choice 4</button>
+      </div>
+    </div> 
+    
+    <h2>Your Third Question</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q3a1">Question 3 Answer Choice 1</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q3a2">Question 3 Answer Choice 2</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q3a3">Question 3 Answer Choice 3</button>
+      </div>
+      <div class="answer-choice">
+        <img src="http://static.parastorage.com/services/wixapps/2.486.0/javascript/wixapps/apps/blog/images/no-image-icon.png">
+        <br>
+        <button id="q3a4">Question 3 Answer Choice 4</button>
+      </div>
+    </div> 
+    
+    <div class="result">
+      <h2 id="result">Your result is... </h2>
+    </div> -->
+    </footer>
+  </body>
+</html>

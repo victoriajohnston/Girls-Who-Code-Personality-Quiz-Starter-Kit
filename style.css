@@ -1,0 +1,33 @@
+/* CSS files add styling rules to your content */
+/* 
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+}
+  
+.answer-choice img {
+  height: 10em;
+} */
+.col-sm img {
+  width: 200px;
+  height: 200px;
+}
+
+.jumbotron {
+  background: #222 url(https://images.unsplash.com/photo-1490380169520-0a4b88d52565?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&s=a800618e01707bb9265bee445b736a37) center center no-repeat;
+  background-size: cover;
+}
